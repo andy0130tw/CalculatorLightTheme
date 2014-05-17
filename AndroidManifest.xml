@@ -1,11 +1,14 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.xlythe.calculator.theme.light"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionCode="2"
+    android:versionName="1.1"
+    android:installLocation="internalOnly" >
 
     <uses-sdk
         android:minSdkVersion="14"
         android:targetSdkVersion="19" />
+
+    <uses-feature android:name="org.cyanogenmod.theme" android:required="false" />
 
     <application
         android:allowBackup="true"
@@ -28,6 +31,13 @@
                 <action android:name="com.android.calculator3.THEME" />
             </intent-filter>
         </activity>
+        <provider
+            android:name=".FileProvider"
+            android:authorities="com.xlythe.calculator.theme.light.FileProvider"
+            android:enabled="true"
+            android:exported="true" />
     </application>
+    <meta-data android:name="org.cyanogenmod.theme.name" android:value="@string/theme_name"/>
+    <meta-data android:name="org.cyanogenmod.theme.author" android:value="@string/author" />
 
 </manifest>
