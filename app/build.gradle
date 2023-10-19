@@ -1,0 +1,27 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.xlythe.calculator.theme.light'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.xlythe.calculator.theme.light"
+        minSdk 19
+        targetSdk 33
+        versionCode 3
+        versionName "1.1.9999"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
