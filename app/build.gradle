@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId "com.xlythe.calculator.theme.light"
-        minSdk 19
+        minSdk 25
         targetSdk 33
         versionCode 3
         versionName "1.1.9999"

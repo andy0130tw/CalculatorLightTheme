@@ -1,5 +1,4 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.xlythe.calculator.theme.light"
     android:installLocation="internalOnly" >
 
     <uses-feature android:name="org.cyanogenmod.theme" android:required="false" />
