@@ -1,8 +1,8 @@
 <resources>
 
     <string name="app_name">Calculator Light</string>
-    <string name="app_theme">Theme.Holo.Light.NoActionBar</string>
-    <string name="app_settings_theme">Theme.Holo.Light</string>
+    <string name="app_theme">Theme.Material.Light.NoActionBar</string>
+    <string name="app_settings_theme">Theme.Material.Light</string>
     <string name="theme_name">Calculator Light</string>
     <string name="author">Xlythe LLC</string>
     <string name="copyright">Xlythe LLC</string>
